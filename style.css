@@ -1,0 +1,321 @@
+@import url(./footer.css);
+@import url(./mobile.css);
+/* @import url(./tablet.css); */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+#nav-container{
+    /* border: 2px solid black; */
+    height:65px;
+    background-color: black;
+}
+#nav-container section{
+    height: inherit;
+    /* border: 2px solid red; */
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-container section span svg{
+    height: 2.4em;
+    margin-top: 10px;
+    fill: white;
+}
+#nav-container section span svg:hover{
+    cursor: pointer;
+}
+#nav-container div{
+    /* border: 2px solid blue; */
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    font-size: 14px !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+#nav-container div span+span{
+    padding-left: 25px;
+}
+#nav-container div span:hover{
+    color: rgb(5, 233, 5);
+    cursor: pointer;
+}
+
+
+
+#main-container{
+    /* border: 2px solid black; */
+    height: 550px;
+    background: url(./Image/bubbles-dktp.svg) ,center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#main-container span svg{
+    height: 35em;
+
+}
+#main-container span{
+    position: absolute;
+    left: 200px;
+    top: 170px;
+}
+#main-container img{
+    height: 407px;
+    width: 265px;
+    position: absolute;
+    top: 210px;
+    left: 205px;
+ }
+ #main-container h1{
+    color: white;
+    font-size: 56px;
+    letter-spacing: -1px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15%;
+    height: 300px;
+ }
+ #main-container h2{
+   /* border: 1px solid red; */
+   display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    /* align-items: flex-end; */
+    /* padding-right: 15%; */
+ }
+ button{
+    /* position: absolute; */
+    /* top: 390px;
+    left: 560px; */
+    /* border: 1px solid red; */
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+
+ }
+ button:hover{
+   transform: scale(1.05,1.05);
+   cursor: pointer;
+ }
+
+
+
+ #sec-container h1{
+    padding-top: 4%;
+    font-size: 34px;
+    padding-left: 40%;
+    font-weight: 800;
+    margin-bottom: 5%;
+ }
+ #sec-container div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+ }
+ #sec-container div span{
+   text-align: center;
+ }
+ #sec-container div span img{
+    height: 8em;
+    
+ }
+  #sec-container div span p{
+    font-weight: bold;
+    font-size: 18px;
+    /* border: 2px solid red; */
+    width: 230px;
+    padding: 0%;
+    /* margin-left: 40px; */
+    text-align: center;
+    line-height: 35px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+ }
+ #sec-container div span p+p{
+    font-weight: 200;
+    font-size: 14px;
+    padding-top: 0%;
+    line-height: 28px;
+ }
+
+ #sec-container div span+span p{
+    /* border: 2px solid red; */
+    width: 230px;
+    padding: 0%;
+    /* margin-left: -20%; */
+    text-align: center;
+    /* margin-right: 50%; */
+ }
+ #sec-container div span div{
+   display: flex;
+   flex-direction: column;
+ }
+
+ /* third-sec */
+
+ #third-sec{
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    width: 100%;
+    height: 70vh;
+    color: white;
+    /* padding: 190px; */
+ }
+
+ #third-sec div{
+   font-size: 45px;
+   font-weight: 600;
+   text-align: center;
+   height: 70vh;
+   /* border: 2px solid red; */
+   padding-top: 150px;
+}
+
+
+
+
+
+
+ /* Got Questions */
+
+ 
+
+ #qna main{
+   width: 70%;
+   margin: auto;
+   /* border: 2px solid red; */
+   margin-top: 6%;
+   margin-bottom: 5%;
+
+ }
+ #qna main h1{
+   text-align: center;
+   font-size: 38px;
+   font-weight: 600;
+   margin-bottom: 8%;
+ }
+
+ #qna main div{
+   /* border: 2px solid black; */
+   margin-top: 0.5%;
+   border-bottom: 1px solid rgb(197, 197, 197);
+   padding: 1%;
+   /* padding-bottom: 2%; */
+ }
+ #qna main div:hover{
+   border: none;
+ }
+ #qna>main >div>details>summary:hover{
+   background-color: rgba(238, 238, 238, 0.781);
+   text-decoration: underline;
+   cursor: pointer;
+ }
+ #qna>main >div>details>summary{
+   list-style: none;
+   font-size: 17px;
+   font-weight: 700;
+   /* word-spacing: 1px; */
+   padding: 2.5%;
+   padding-left: 1%;
+ }
+ #qna>main >div>details>p{
+   font-size: 15px;
+   padding-left: 1%;
+   font-weight: 500;
+   margin-top: 1.5%;
+ }
+ #qna>main >div>details>ol{
+   padding-left: 3%;
+   margin-top: 1%;
+   line-height: 20px;
+   font-size: 15px;
+
+ }
+ #qna>main >div>details>ol span , #qna>main >div>details>p span{
+   text-transform: uppercase;
+   color: green;
+   font-weight: 600;
+   font-size: 14px;
+ }
+ details #how::after{
+   content: url(./Image/chevron-down-regular-24.png);
+   padding-left: 600px;
+}
+ details[open] #how::after{
+   content: url(./Image/chevron-up-regular-24.png);
+   padding-left: 600px;
+}
+details #activate::after{
+   content: url(./Image/chevron-down-regular-24.png);
+   padding-left: 520px;
+}
+ details[open] #activate::after{
+   content: url(./Image/chevron-up-regular-24.png);
+   padding-left: 520px;
+}
+details #only::after{
+   content: url(./Image/chevron-down-regular-24.png);
+   padding-left: 485px;
+}
+ details[open] #only::after{
+   content: url(./Image/chevron-up-regular-24.png);
+   padding-left: 485px;
+}
+details #where::after{
+   content: url(./Image/chevron-down-regular-24.png);
+   padding-left: 590px;
+}
+ details[open] #where::after{
+   content: url(./Image/chevron-up-regular-24.png);
+   padding-left: 590px;
+}
+
+
+
+/* Ready play */
+
+#ready{
+   
+   background: url(./Image/bubbles-dktp.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+   height: 400px;
+   /* margin-top: 5%; */
+   padding-top:8%;
+}
+#ready input{
+   /* border: 2px solid red; */
+   /* background-color: black; */
+   height: 45px;
+   width: 200px;
+   border: none;
+   border-radius: 30px;
+   font-weight: 700;
+  
+}
+#ready h2{
+   /* border: 2px solid red; */
+   display: flex;
+   justify-content: center;
+   height: 80px;
+   align-items: center;
+}
+#ready input:hover{
+   cursor: pointer;
+   transform: scale(1.05,1.05);
+}
+#ready h1{
+   font-size: 70px;
+   text-align: center;
+   font-weight: 800;
+   color: white;
+}

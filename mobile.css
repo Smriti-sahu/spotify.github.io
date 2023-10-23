@@ -1,0 +1,125 @@
+@media only screen and (max-width: 425px) {
+    body{
+        overflow-x: hidden;
+    }
+    #nav-container{
+        max-width: 100%;
+        text-align: center;
+    }
+    #nav-container div{
+        display: none !important;
+    }
+    #main-container span svg , #main-container img{
+        display: none;
+    }
+    #main-container h1{
+        font-size: 42px !important;
+        /* border: 1px solid red; */
+        height: 250px !important;
+        margin-left: 2%;
+    }
+    #main-container h2{
+        display: flex;
+    justify-content: flex-start !important;
+    margin-left: 2%;
+
+    }
+    #main-container h2 button{
+        font-size: 18px;
+        margin-top: 5%;
+        /* padding: % !important; */
+    }
+
+
+    #sec-container div span img{
+        height: 6em !important;
+        
+     }
+    #sec-container h1{
+        padding-left: 0% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    #sec-container>div{
+        display: flex;
+        flex-direction: column !important;
+        gap: 20px;
+    }
+    #sec-container div span{
+        display: flex;
+        /* justify-content: space-between; */
+        gap: 5px;
+    }
+    #sec-container div span div p , #sec-container div span+span div p{
+        text-align: left;
+        font-size: 23px;
+    }
+    #sec-container div span div p+p{
+        font-size: 13px;
+    }  
+    
+    #third-sec{
+        /* border: 2px solid red; */
+        height: 400px !important;
+       
+    }
+    #third-sec div{
+        font-size: 30px !important;
+    }
+     
+
+    #ready h1{
+        /* border: 1px solid red; */
+        font-size: 40px !important;
+        /* text-align: center; */
+        height: 150px;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+     }
+     details #how::after , details[open] #how::after , details[open] #how::after , details #activate::after , details[open] #activate::after ,  details #only::after ,   details[open] #only::after ,  details #where::after , details[open] #where::after{
+        display: none;
+     }
+     
+  
+     #qna main h1{
+        text-align: center;
+        font-size: 30px !important;
+        font-weight: 600;
+        margin-bottom: 8%;
+      }
+      #qna>main >div>details>summary{
+        list-style: none;
+        font-size: 15px !important;
+        font-weight: 700;
+      }
+
+
+    footer main>div{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    footer main div #media{
+        display: flex;
+        /* width: 220px; */
+        justify-content: flex-start;
+        gap: 20px;
+        font-size: 30px;
+        margin-left: 1%;
+    }
+
+    #footer-last ol{
+        display: none;
+    }
+
+    #footer-last ol+ol{
+        /* border: 2px solid blue; */
+       display: none;
+    }
+}

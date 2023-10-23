@@ -1,0 +1,91 @@
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer main{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin: auto;
+   
+}
+footer svg{
+    height: 2.4em;
+    margin-top: 10px;
+    fill: white;
+}
+footer main>div {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+footer main>div>div+div{
+    /* border: 2px solid red; */
+    margin-left: 5%;
+
+} 
+footer main div ol{
+    list-style: none;
+    line-height: 40px;
+  
+}
+footer main div ol li{
+    color: rgb(167, 163, 163);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+footer main div ol li+li{
+    color: white;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+footer main div ol li+li:hover  ,footer main div #media i:hover , #footer-last ol li:hover{
+    color: rgb(44, 255, 2);
+    cursor: pointer;
+}
+footer main div #media{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 15%;
+}
+footer main div #media div{
+    background-color: rgb(39, 41, 41);
+    height: 50px;
+    padding: 5%;
+    border-radius: 50%;
+    color:#ffffff
+}
+
+#footer-last{
+    display: flex;
+    margin-top: 5%;
+    /* margin-bottom: 8%; */
+}
+#footer-last ol{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+#footer-last ol li{
+    color: rgb(167, 163, 163);
+    font-size: 12px;
+    text-transform: capitalize;
+}
+#footer-last ol+ol{
+    /* border: 2px solid blue; */
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    padding-top: 0%;
+    height: -1%;
+    margin-left: 35%;
+}
+#footer-last ol+ol li{
+    padding: 0%;
+    /* border: 2px solid red; */
+}
